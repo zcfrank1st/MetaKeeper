@@ -9,4 +9,8 @@ public class Meta extends BasicDBObject{
     public Meta(){
         super();
     }
+    
+    public Meta(String k, Object v){
+        super(k, v);
+    }
 }
